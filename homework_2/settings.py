@@ -117,10 +117,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
 STATIC_URL = 'static/'
-STATIC_ROOT = "/Users/emar/Documents/GitHub/season_4/homework_1/website/static"
+STATIC_ROOT = "/Users/emar/Documents/GitHub/season_4/homework_2/website/static"
 
 MEDIA_URL = 'media/'
-MEDIA_ROOT = "/Users/emar/Documents/GitHub/season_4/homework_1/website/media"
+MEDIA_ROOT = "/Users/emar/Documents/GitHub/season_4/homework_2/website/media"
 
 STATICFILES_DIRS = [
     BASE_DIR / "static"
