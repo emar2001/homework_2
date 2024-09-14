@@ -3,9 +3,8 @@ from django.shortcuts import render
 def index_view(request):
     return render(request,'index.html')
 
-def email_view(request):
-    return render(request,'email.html')
+def contact_view(request):
+    return render(request,'contact.html',{'phone':'901 559 3658','email':'mohamadrezaa.nasouri@gmail.com'})
 
-def phone_view(request):
-    return render(request,'phone.html')
+
 
